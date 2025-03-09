@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/anabeh/IdeaProjects/GeneralStore2">
+        <classes>
+            <class name="Tests.RegisterPageTest">
+                <methods>
+                    <include name="SelectCountryRP"/>
+                    <include name="AssertEmptyNameEM"/>
+                </methods>
+            </class>
+            <class name="Tests.ProductPageTest">
+                <methods>
+                    <include name="AddProducts"/>
+                </methods>
+            </class>
+            <class name="Tests.CartPageTest">
+                <methods>
+                    <include name="ComparePrices"/>
+                    <include name="TotalPrice"/>
+                </methods>
+            </class>
+
+
+        </classes>
+    </test>
+</suite>
