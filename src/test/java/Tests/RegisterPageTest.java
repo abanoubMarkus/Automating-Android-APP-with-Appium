@@ -17,7 +17,7 @@ public class RegisterPageTest extends BaseTest {
     }
 
 
-    //@Test(priority = 2)
+    @Test(priority = 2)
     public void SelectCountryRP() throws Exception {
         RP.SelectCountry();
         RP.InsertName();
